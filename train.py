@@ -148,7 +148,7 @@ def main():
     model = DrivingModel(input_size=66)
     
     # Load dataset
-    dataset = DrivingDataset('merged_data.csv')
+    dataset = DrivingDataset('merged_data.csv.gz')
     
     # Print model summary
     print("\nModel Summary:")
